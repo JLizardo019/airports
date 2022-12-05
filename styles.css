@@ -1,0 +1,44 @@
+/* Container */
+
+#container{
+    width: 940px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Text and Links */
+a:link, a:visited{
+    color: #5385b8;
+    text-decoration: none;
+}
+
+h1, p{
+    font-family: 'Montserrat', sans-serif; /* apply font from Google Fonts */
+    line-height: 140%;
+}
+
+/* Layout */
+nav{
+    width: 140px; 
+    /* narrow parent container forces pictures to become vertical */
+
+    display: flex;
+    flex-direction: column; /* change direction of alignment, by default it is row (horizontal alignment) */
+    justify-content: space-between;
+}
+
+img .airplane{
+    width: 300px;
+    margin: 0;
+}
+
+p{
+    width: 300px;
+}
+
+main{
+    /* make a flexible container */
+    display: flex;
+    justify-content: space-between;
+}
